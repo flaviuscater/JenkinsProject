@@ -1,4 +1,4 @@
-
+@Library('MyJenkinsPipeline')
 import static com.cleverbuilder.GlobalVars_
 
 pipeline {
