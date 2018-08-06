@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'GlobalVars.foo'
+                echo GlobalVars.foo
             }
         }
 
