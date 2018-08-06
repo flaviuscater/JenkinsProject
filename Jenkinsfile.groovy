@@ -1,5 +1,5 @@
 
-import GlobalVars
+import src.GlobalVars
 
 pipeline {
     agent any
