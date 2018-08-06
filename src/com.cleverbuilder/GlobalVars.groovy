@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-package com.cleverbuilder
+package 'com.cleverbuilder'
 
 class GlobalVars {
     static String foo = "bar"
