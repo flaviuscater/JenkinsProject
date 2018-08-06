@@ -1,5 +1,5 @@
 
-import src.GlobalVars
+//import com.cleverbuilder.GlobalVars
 
 pipeline {
     agent any
@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo GlobalVars.foo
+                echo com.cleverbuilder.GlobalVars.foo
             }
         }
 
