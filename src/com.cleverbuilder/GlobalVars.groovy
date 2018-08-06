@@ -2,6 +2,6 @@
 
 package com.cleverbuilder
 
-class GlobalVars {
+public class GlobalVars {
    public static String foo = "bar"
 }
