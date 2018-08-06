@@ -1,23 +1,14 @@
+import com.cleverbuilder.GlobalVars
+
 pipeline {
     agent any
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo GlobalVars.groovy
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
-                echo 'Something'
-            }
-        }
+
     }
 }
