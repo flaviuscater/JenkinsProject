@@ -1,3 +1,4 @@
+
 import com.cleverbuilder.GlobalVars
 
 pipeline {
@@ -6,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo GlobalVars.groovy
+                echo GlobalVars.foo
             }
         }
 
