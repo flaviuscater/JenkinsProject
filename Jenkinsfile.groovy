@@ -1,4 +1,6 @@
 
+import GlobalVars
+
 pipeline {
     agent any
 
