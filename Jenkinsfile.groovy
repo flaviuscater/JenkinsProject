@@ -1,5 +1,5 @@
 
-import GlobalVars
+import com.cleverbuilder.GlobalVars
 
 pipeline {
     agent any

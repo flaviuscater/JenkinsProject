@@ -1,5 +1,7 @@
 #!/usr/bin/env groovy
 
+package com.cleverbuilder
+
 class GlobalVars {
-    static String foo = "bar"
+   public static String foo = "bar"
 }
