@@ -1,5 +1,5 @@
 @Library('MyJenkinsPipeline')_
-import static com.cleverbuilder.GlobalVars
+import static com.cleverbuilder.*
 
 pipeline {
     agent any
