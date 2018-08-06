@@ -1,6 +1,4 @@
 
-import static com.cleverbuilder.GlobalVars
-
 pipeline {
     agent any
 
