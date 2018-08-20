@@ -1,5 +1,3 @@
-@Library('MyJenkinsPipeline')_
-import static com.cleverbuilder.*
 
 pipeline {
     agent any
@@ -7,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'GlobalVars.foo'
+                echo "bla"
             }
         }
 
