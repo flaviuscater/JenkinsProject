@@ -1,13 +1,18 @@
-@Library('MyJenkinsPipeline')_
-import static com.cleverbuilder.*
-
 pipeline {
     agent any
 
     stages {
         stage('Build') {
             steps {
-                echo 'GlobalVars.foo'
+                echo "build stage"
+                checkpoint env.STAGE_NAME
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                echo "deploy stage"
+                checkpoint env.STAGE_NAME
             }
         }
 
