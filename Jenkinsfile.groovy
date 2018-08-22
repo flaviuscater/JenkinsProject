@@ -13,7 +13,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo "deploy stage"
-                checkpoint env.STAGE_NAME
+               // checkpoint env.STAGE_NAME
             }
         }
 
