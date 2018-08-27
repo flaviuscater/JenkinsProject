@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "build stage"
-                //checkpoint env.STAGE_NAME
+                checkpoint env.STAGE_NAME
             }
         }
         
