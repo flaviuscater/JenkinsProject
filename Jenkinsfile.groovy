@@ -6,14 +6,16 @@ pipeline {
         stage('Build') {
             steps {
                 echo "build stage"
-                checkpoint env.STAGE_NAME
+                sleep 5
+                checkpoint STAGE_NAME
             }
         }
         
         stage('Deploy') {
             steps {
                 echo "deploy stage"
-               // checkpoint env.STAGE_NAME
+                //sleep 5
+                //checkpoint STAGE_NAME
             }
         }
 
